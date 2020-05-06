@@ -63,10 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CollectRelic.cs" />
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
-    <Compile Include="Assets\ScoringSystem.cs" />
+    <Compile Include="Assets\Scripts\CollectRelic.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ScoringSystem.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/brianduong/cs583S20_Duong_Brian_Proj_03/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

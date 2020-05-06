@@ -6,15 +6,11 @@ using UnityEngine.UI;
 public class ScoringSystem : MonoBehaviour
 {
     public GameObject scoreText;
-    public int theScore;
-    public AudioSource collectSound;
+    public static int theScore;
 
-    void OnTriggerEnter(Collider other)
+    void Update()
     {
-        collectSound.Play();
-        theScore += 1;
         scoreText.GetComponent<Text>().text = "Relics: " + theScore;
-        Destroy(gameObject);
     }
 
 }

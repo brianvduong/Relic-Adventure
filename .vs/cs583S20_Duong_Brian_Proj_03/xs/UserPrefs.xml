@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{7943D23B-4438-CCD6-63E6-C88C37336A7E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CollectRelic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoringSystem.cs">
     <Files>
-      <File FileName="Assets/MouseLook.cs" Line="16" Column="50" />
-      <File FileName="Assets/PlayerMovement.cs" Line="40" Column="65" />
-      <File FileName="Assets/ScoringSystem.cs" Line="20" Column="2" />
-      <File FileName="Assets/CollectRelic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Teleporter.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="8" Column="12" />
+      <File FileName="Assets/Scripts/CollectRelic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScoringSystem.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="cs583S20_Duong_Brian_Proj_03" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="ScoringSystem.cs" selected="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="ScoringSystem.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -20,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7cf4b752-99e7-4623-95e9-94c56783dd62" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7096a032-80ad-4a2a-85b6-d124ba116f97" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

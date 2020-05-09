@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public AudioSource jumpSound;
+
     Vector3 velocity;
     bool isGrounded;
 
@@ -38,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            jumpSound.Play();
         }
 
         velocity.y += gravity * Time.deltaTime;

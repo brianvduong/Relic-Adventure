@@ -17,6 +17,7 @@ public class PauseMenu : MonoBehaviour
             if (GameIsPaused)
             {
                 Resume();
+                Cursor.lockState = CursorLockMode.Locked;
             }
             else
             {
@@ -25,7 +26,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    public void Resume()
+    void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1;
@@ -39,13 +40,4 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 
-    public void LoadMenu()
-    {
-        Debug.Log("Loading menu...");
-    }
-
-    public void QuitGame()
-    {
-        Debug.Log("Quiting game...");
-    }
 }

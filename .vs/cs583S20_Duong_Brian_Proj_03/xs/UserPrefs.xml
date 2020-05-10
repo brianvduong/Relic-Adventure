@@ -7,7 +7,7 @@
       <File FileName="Assets/Scripts/MainMenu.cs" />
       <File FileName="Assets/Scripts/ScoringSystem.cs" />
       <File FileName="Assets/Scripts/MouseLook.cs" Line="16" Column="34" />
-      <File FileName="Assets/Scripts/RotatingItem.cs" Line="16" Column="9" />
+      <File FileName="Assets/Scripts/RotatingItem.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

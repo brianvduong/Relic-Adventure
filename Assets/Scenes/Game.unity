@@ -2328,6 +2328,7 @@ GameObject:
   - component: {fileID: 443784561}
   - component: {fileID: 443784560}
   - component: {fileID: 443784559}
+  - component: {fileID: 443784562}
   m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
@@ -2409,6 +2410,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443784557}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &443784562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443784557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
 --- !u!1 &444368820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,7 +3585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710941830}
   m_Layer: 9
-  m_Name: Jump course 4
+  m_Name: Jump course 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4459,6 +4473,7 @@ GameObject:
   - component: {fileID: 907224645}
   - component: {fileID: 907224644}
   - component: {fileID: 907224643}
+  - component: {fileID: 907224649}
   m_Layer: 0
   m_Name: Relic 3
   m_TagString: Untagged
@@ -4560,12 +4575,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907224642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 198.77225, y: -9.367603, z: -124.70395}
+  m_LocalPosition: {x: 198.77225, y: -7.69, z: -124.70395}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 490532342}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &907224649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907224642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
 --- !u!1 &911067723
 GameObject:
   m_ObjectHideFlags: 0
@@ -5020,6 +5048,7 @@ GameObject:
   - component: {fileID: 972785832}
   - component: {fileID: 972785831}
   - component: {fileID: 972785830}
+  - component: {fileID: 972785835}
   m_Layer: 0
   m_Name: Relic 5
   m_TagString: Untagged
@@ -5035,7 +5064,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972785828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 136.34, y: 28.76, z: 38.61}
+  m_LocalPosition: {x: 136.34, y: 28.904, z: 38.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 490532342}
@@ -5127,6 +5156,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972785828}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &972785835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972785828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
 --- !u!1 &1006622523
 GameObject:
   m_ObjectHideFlags: 0
@@ -5139,6 +5181,7 @@ GameObject:
   - component: {fileID: 1006622527}
   - component: {fileID: 1006622526}
   - component: {fileID: 1006622525}
+  - component: {fileID: 1006622528}
   m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -5220,6 +5263,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006622523}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1006622528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006622523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 15
 --- !u!1 &1011400330
 GameObject:
   m_ObjectHideFlags: 0
@@ -6633,7 +6689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1313345964}
   m_Layer: 9
-  m_Name: Jump course 3
+  m_Name: Jump course 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7609,6 +7665,7 @@ GameObject:
   - component: {fileID: 1477497002}
   - component: {fileID: 1477497001}
   - component: {fileID: 1477497000}
+  - component: {fileID: 1477497003}
   m_Layer: 9
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -7690,6 +7747,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477496998}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1477497003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477496998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
 --- !u!1 &1528639214
 GameObject:
   m_ObjectHideFlags: 0
@@ -8436,6 +8506,7 @@ GameObject:
   - component: {fileID: 1657730174}
   - component: {fileID: 1657730173}
   - component: {fileID: 1657730172}
+  - component: {fileID: 1657730178}
   m_Layer: 0
   m_Name: Relic 1
   m_TagString: Untagged
@@ -8537,12 +8608,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657730171}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 126.09225, y: -15.947601, z: -66.75395}
+  m_LocalPosition: {x: 126.09225, y: -15.73, z: -71.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 490532342}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657730178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657730171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
 --- !u!1 &1668971286
 GameObject:
   m_ObjectHideFlags: 0
@@ -9913,6 +9997,7 @@ GameObject:
   - component: {fileID: 1909899932}
   - component: {fileID: 1909899931}
   - component: {fileID: 1909899930}
+  - component: {fileID: 1909899936}
   m_Layer: 0
   m_Name: Relic 2
   m_TagString: Untagged
@@ -10020,6 +10105,19 @@ Transform:
   m_Father: {fileID: 490532342}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1909899936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909899929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
 --- !u!1 &1918049555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10034,6 +10132,7 @@ GameObject:
   - component: {fileID: 1918049557}
   - component: {fileID: 1918049561}
   - component: {fileID: 1918049556}
+  - component: {fileID: 1918049562}
   m_Layer: 0
   m_Name: Relic 4
   m_TagString: Untagged
@@ -10122,7 +10221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918049555}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 285.54224, y: -6.8876038, z: 80.196045}
+  m_LocalPosition: {x: 285.54224, y: -6.34, z: 80.196045}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 490532342}
@@ -10141,6 +10240,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 394684942}
+--- !u!114 &1918049562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918049555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172f551932a304a5c9a34a9dfe748e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
 --- !u!1 &1926030219
 GameObject:
   m_ObjectHideFlags: 0
